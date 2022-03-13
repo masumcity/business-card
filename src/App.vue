@@ -1,25 +1,25 @@
 <template>
   <div class="container">
     <Loading />
-  <Card/>
+    <Card />
   </div>
 </template>
 
 <script>
-import Card from './components/Card';
-import Loading from './components/Loading';
+import Card from "./components/Card";
+import Loading from "./components/Loading";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Card,
     Loading,
   },
-}
+};
 </script>
 
 <style>
-@import './app.scss';
+@import "./app.scss";
 
 #app {
   font-family: Orkney, sans-serif;

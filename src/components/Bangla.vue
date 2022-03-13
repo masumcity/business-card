@@ -1,17 +1,17 @@
 <template>
   <div class="body__profile__title">
-    <h1>Riaz Uddin Masum</h1>
-    <h2>Head Of Digital Service</h2>
-    <h2>Full Stack Web Developer</h2>
+    <h1>রিয়াজ উদ্দিন মাসুম</h1>
+    <h2>হেড অফ ডিজিটাল সার্ভিস </h2>
+    <h2>ফুল স্ট্যাক ডেভেলপার</h2>
     <div class="body__profile__bio-en">{{ bioEn }}</div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "English",
+  name: "Bangla",
   data: () => ({
-    bioEn: `Web Developer with 15 years of experience in designing and developing user interfaces, testing, debugging, and training staff within eCommerce technologies. Proven ability in optimizing web functionality that improve data retrieval and workflow efficiencies.`,
+    bioEn: `কেউ আমাকে থামান`,
   }),
 };
 </script>
